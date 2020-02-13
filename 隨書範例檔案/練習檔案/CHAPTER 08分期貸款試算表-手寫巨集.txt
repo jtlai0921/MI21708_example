@@ -1,0 +1,11 @@
+Sub 清除輸入資料()
+'
+' 清除輸入資料 巨集
+'
+' 快速鍵: Ctrl+Shift+D
+'
+    Range("D4:D5").Select
+    Selection.ClearContents
+    Range("F4:F5").Select
+    Selection.ClearContents
+End Sub

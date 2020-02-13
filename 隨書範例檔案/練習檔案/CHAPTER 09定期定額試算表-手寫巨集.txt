@@ -1,0 +1,8 @@
+Private Sub Workbook_Open()
+MsgBox "請輸入定期定額試算表相關數據"
+    Range("E3") = InputBox("請輸入初次存入金額")
+    Range("E4") = InputBox("請輸入每月存入金額")
+    Range("E5") = InputBox("請輸入存款利率(年利率,並請輸入%符號,如2%)")
+    Range("E6") = InputBox("請輸入存款年數(最大請輸入到20)")
+    Range("G3") = InputBox("請輸入存款開始日(請輸入年月日,如2014/1/1)")
+End Sub
